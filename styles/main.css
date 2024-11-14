@@ -60,7 +60,7 @@ button:hover {
   right: 30px;
   width: 50px;
   height: 50px;
-  border-radius: 100%;
+  border-radius: 30px;
   background-color: #dd2242;
   box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
   color: #ffffff;
@@ -652,7 +652,7 @@ button:hover {
   right: 30px;
   width: 50px;
   height: 50px;
-  border-radius: 100%;
+  border-radius: 30px;
   background-color: #dd2242;
   box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
   color: #ffffff;
@@ -1130,7 +1130,7 @@ button:hover {
   right: 30px;
   width: 50px;
   height: 50px;
-  border-radius: 100%;
+  border-radius: 30px;
   background-color: #dd2242;
   box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
   color: #ffffff;
@@ -1606,7 +1606,7 @@ button:hover {
   right: 30px;
   width: 50px;
   height: 50px;
-  border-radius: 100%;
+  border-radius: 30px;
   background-color: #dd2242;
   box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
   color: #ffffff;
@@ -2047,7 +2047,7 @@ button:hover {
   right: 30px;
   width: 50px;
   height: 50px;
-  border-radius: 100%;
+  border-radius: 30px;
   background-color: #dd2242;
   box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
   color: #ffffff;
@@ -2502,7 +2502,7 @@ button:hover {
   right: 30px;
   width: 50px;
   height: 50px;
-  border-radius: 100%;
+  border-radius: 30px;
   background-color: #dd2242;
   box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
   color: #ffffff;
@@ -2938,7 +2938,7 @@ button:hover {
   right: 30px;
   width: 50px;
   height: 50px;
-  border-radius: 100%;
+  border-radius: 30px;
   background-color: #dd2242;
   box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
   color: #ffffff;
@@ -3409,7 +3409,7 @@ button:hover {
   right: 30px;
   width: 50px;
   height: 50px;
-  border-radius: 100%;
+  border-radius: 30px;
   background-color: #dd2242;
   box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
   color: #ffffff;
@@ -3864,7 +3864,7 @@ button:hover {
   right: 30px;
   width: 50px;
   height: 50px;
-  border-radius: 100%;
+  border-radius: 30px;
   background-color: #dd2242;
   box-shadow: 0 7px 10px 0 rgba(0, 0, 0, 0.2);
   color: #ffffff;
@@ -4220,4 +4220,53 @@ button:hover {
 }
 body {
   scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.search-container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.search-container input[type=text] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #007BFF;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: all 0.4s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  outline: none;
+  padding-right: 40px;
+}
+
+.search-container input[type=text]:focus {
+  border-color: #0056b3;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.search-container .search-button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  outline: none;
+}
+
+.search-container .search-button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }/*# sourceMappingURL=main.css.map */
