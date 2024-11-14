@@ -1,0 +1,13 @@
+@import "./header";
+@import './section1';
+@import "./big-img";
+@import './white-sec';
+@import './video-sec';
+@import "./photo_sec";
+@import './map';
+@import './footer';
+@import "./variables";
+
+body {
+    scroll-behavior: smooth;
+}

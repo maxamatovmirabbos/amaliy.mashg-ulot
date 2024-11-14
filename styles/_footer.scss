@@ -1,0 +1,65 @@
+@import './variables';
+
+footer {
+    background-color: #010a20;
+    padding: 39px 70px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-logo h1 {
+    font-family: var(--second-family);
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 90%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-right: 300px;
+    margin-left: 100px;
+
+}
+
+.footer-links a {
+    font-family: $font-primary;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: 0.03em;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.footer-icons {
+    display: flex;
+
+    gap: 10px;
+
+}
+
+.footer-icons p {
+    font-family: $font-primary;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: 0.03em;
+    color: #fff;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+
+}

@@ -1,0 +1,50 @@
+@import './variables';
+
+.white-sec {
+    background-image: url(../assets/imgs/map-bc.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+        font-family: $font-primary;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 119%;
+        text-align: center;
+        color: #000;
+    }
+
+    p {
+        font-family: $font-primary;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 156%;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #6f7787;
+        margin-top: 32px;
+        margin-bottom: 36px;
+    }
+
+    button {
+        border-radius: 122px;
+        padding: 16px 24px;
+        width: 210px;
+        height: 64px;
+        font-family: $font-primary;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        color: #fff;
+    }
+
+
+}

@@ -1,0 +1,42 @@
+@import './variables';
+
+.photo-sec-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+
+    h1 {
+        font-family: $font-primary;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 150%;
+        text-align: center;
+        color: #010a20;
+    }
+
+    p {
+        font-family: $font-primary;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 156%;
+        letter-spacing: 0.01em;
+        text-align: center;
+        color: #6f7787;
+        width: 45%;
+        margin-bottom: 40px;
+    }
+}
+
+.grid-container {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.first-pictures {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-right: 10px;
+}

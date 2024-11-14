@@ -1,0 +1,84 @@
+@import "./variables";
+
+.map-sec {
+    background-color: #dce8f2;
+    width: 100%;
+    height: auto;
+}
+
+.map-text-sec h1 {
+    font-family: $font-primary;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 150%;
+    color: #010a20;
+    margin-top: 50px;
+}
+
+
+
+.steps-sec .circle {
+    background-color: #dd2242;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    left: -25px;
+    top: -30px;
+    font-family: $font-primary;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 144%;
+    text-align: center;
+    color: #fff;
+}
+
+.steps-sec {
+    display: flex;
+    gap: 30px;
+    padding: 0 30px;
+    margin-top: 30px;
+
+    border-left: 1px solid grey;
+    position: relative;
+}
+
+
+
+
+
+
+.steps-info h6 {
+    font-family: $font-primary;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 156%;
+    color: #010a20;
+}
+
+.steps-info p {
+    font-family: $font-primary;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 162%;
+    color: rgba(21, 20, 57, 0.4);
+    width: 65%;
+}
+
+.steps-sec button {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+    border-radius: 122px;
+    padding: 16px 24px;
+    width: 210px;
+    height: 64px;
+    margin-bottom: 80px;
+}
